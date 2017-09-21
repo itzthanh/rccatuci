@@ -1,0 +1,243 @@
+
+html, body{
+    height:100%;
+    margin: 0 0;
+}
+
+#mainContainer{
+    min-height: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+#mainContainer:after{
+    content:"";
+    display: block;
+}
+
+#contentTemplate{
+    padding-bottom: 65px;
+}
+
+
+body
+{
+    min-height: 100%;
+	min-width: 1024px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    /*font-family: 'Roboto', sans-serif;
+	/*font-family: 'Work Sans', sans-serif;*/
+    /*background: rgb(216,227,236); /* Old browsers */
+   /* background: -moz-radial-gradient(center, ellipse cover,  rgba(216,227,236,1) 0%, rgba(118,138,148,1) 100%); /* FF3.6-15 */
+    /*background: -webkit-radial-gradient(center, ellipse cover,  rgba(216,227,236,1) 0%,rgba(118,138,148,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    /*ackground: radial-gradient(ellipse at center,  rgba(216,227,236,1) 0%,rgba(118,138,148,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d8e3ec', endColorstr='#768a94',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+.topBar
+{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,45484d+100 */
+    background: rgb(0,0,0); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(0,0,0,1) 0%, rgba(69,72,77,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(0,0,0,1) 0%,rgba(69,72,77,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(0,0,0,1) 0%,rgba(69,72,77,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#45484d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	text-align: center;
+	position:relative;
+	height:130px;
+	
+}
+
+.logo
+{
+	padding:30px 30px;
+	position:relative;
+	float:left;
+}
+
+.logo img
+{
+	width:550px;
+	height:60px;
+}
+
+.pageTitle{
+    position: relative;
+    text-align: center;
+    background-image: url("../images/styles/text.png");
+    background-position: top;
+    height:55px;
+    background-size: 10% 100%;
+}
+
+.pageTitle h1{
+    font-size: 2.1em;
+    padding-top:10px;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 1);
+    color:white;
+}
+
+#announcement
+{
+	position:absolute;
+	bottom:20px;
+	right:63px;
+	line-height: 20px;
+    margin-right: 6px;
+}
+
+#announcement a:hover{
+    color:red;
+}
+
+#announcement a
+{
+    color:white;
+    text-decoration: underline;
+	text-align: center;
+    font-size:1.3em;
+}
+
+.smIcons
+{
+	position:absolute;
+	top:30px;
+	right:60px;
+	float:right;
+	text-align: center;
+
+}
+.smIcons ul
+{
+	list-style: none;
+}
+
+.smIcons li
+{
+	display: inline-block;
+}
+
+.smIcons img
+{
+	width:30px;
+	height:30px;
+}
+
+.smIcons a
+{
+	display: inline-block;
+	width: 30px;
+	margin-right: 8px;
+}
+
+.smIcons #igIcon, #emailIcon
+{
+	margin-right:9px;
+}
+
+.nav{
+  text-align:center;
+  margin:0 auto;
+  width:100%;
+  border:3px solid black;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+}
+
+.nav ul {
+    list-style:none;
+    text-transform: uppercase;
+    margin:0;
+    padding:0;
+    background: rgb(197,52,69); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(197,52,69,1) 9%, rgba(178,47,62,1) 20%, rgba(131,33,44,1) 48%, rgba(105,22,32,1) 73%, rgba(86,0,16,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(197,52,69,1) 9%,rgba(178,47,62,1) 20%,rgba(131,33,44,1) 48%,rgba(105,22,32,1) 73%,rgba(86,0,16,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(197,52,69,1) 9%,rgba(178,47,62,1) 20%,rgba(131,33,44,1) 48%,rgba(105,22,32,1) 73%,rgba(86,0,16,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c53445', endColorstr='#560010',GradientType=0 ); /* IE6-9 */
+}
+
+.nav ul:before,.nav ul:after {
+    content:"";
+    display:table;
+}
+
+.nav ul:after {
+    clear:both;
+}
+.nav ul > li {
+    display:inline-block;
+    position:relative;
+}
+.nav a {
+	font-size:1.1em;
+    text-decoration:none;
+    display:block;
+    padding:5px 20px;
+    line-height:1.5em;
+    color:#fff;
+    border-left: 1px solid rgba(0,0,0,0.5);
+    border-right: 1px solid rgba(255,255,255,0.5);
+    margin:0 -1.5px;
+}
+.nav a:hover {
+    text-decoration:none;
+    background:#66111D;
+}
+
+.nav li ul {
+    background:#333;
+}
+
+.nav li ul li {
+    width:180px;
+    border:1px solid black;
+}
+
+.nav li ul a {
+    text-decoration:none;
+    border:none;
+}
+
+.nav li ul a:hover {
+    background:rgba(0,0,0,0.2);
+}
+
+.nav li ul {
+    position:absolute;
+    left:-2.5px;
+    top:34px;
+    z-index:1;
+    max-height:0;
+    overflow:hidden;
+    -webkit-transform:perspective(400) rotate3d(1,0,0,-90deg);
+    -webkit-transform-origin:50% 0;
+    -webkit-transition:350ms;
+    -moz-transition:350ms;
+    -o-transition:350ms;
+    transition:350ms;
+}
+.nav ul > li:hover ul {
+    max-height:1000px;
+    -webkit-transform:perspective(400) rotate3d(0,0,0,0);
+}
+
+.nav a.current
+{
+	background: #66111D;
+}
+
+nav > ul{
+    padding: 0;
+}
+
+
+

@@ -1,0 +1,13 @@
+.spreadsheet_link{
+	margin:0 auto;
+	text-align: center;
+}
+
+.family{
+	height:750px;
+}
+
+.family >iframe{
+	height:100%;
+	width: 100%;
+}

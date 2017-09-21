@@ -1,0 +1,125 @@
+#container{
+	margin-bottom: 50px;
+}
+
+.highlight{
+	color:red;
+}
+
+#innerContainer{
+	position: relative;
+	margin: 0 150px;
+	border-width:5px;
+	border-right-color: maroon;
+	border-left-color: maroon;
+	border-style: solid;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b5bdc8+0,828c95+36,28343b+100;Grey+Black+3D */
+	background: rgb(181,189,200); /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(181,189,200,1) 0%, rgba(130,140,149,1) 36%, rgba(40,52,59,1) 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center,  rgba(181,189,200,1) 0%,rgba(130,140,149,1) 36%,rgba(40,52,59,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+#meetingInfo{
+	position: absolute;
+	top:25px;
+	left:25px;
+	text-transform: uppercase;
+	text-align: center;
+	color:ghostwhite;
+	font-size:1.15em;
+	text-shadow: 1px 1px black;
+}
+
+button{
+	position: absolute;
+	top:10px;
+	right:25px;
+}
+
+#innerContainer > #buttonTitle{
+	text-decoration: underline;
+	position: absolute;
+	right:85px;
+	top:25px;
+	color:ghostwhite;
+	font-size:1.1em;
+}
+
+#buttonTitle:hover{
+	cursor: pointer;
+}
+
+#currentWeek{
+	margin: 20px auto;
+	padding:3px 3px;
+	width: 175px;
+	border: 3px solid maroon;
+	text-align: center;
+	line-height: 25px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,cccccc+100;Gren+3D */
+	background: rgb(238,238,238); /* Old browsers */
+	background: -moz-linear-gradient(45deg,  rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	box-shadow: 2px 2px 2px black;
+
+}
+
+.weekHeader{
+	color:white;
+	text-align: center;
+	margin:20px auto;
+	width:110px;
+	text-shadow: 1.5px 1.5px black;
+}
+
+.weekHeader:hover{
+	cursor: pointer;
+}
+
+.weekContainer{
+	display: none;
+	position: relative;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+.week{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,cccccc+100;Gren+3D */
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f7f7f7+0,f7f7f7+100 */
+background: rgb(247,247,247); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(247,247,247,1) 0%, rgba(247,247,247,1) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(247,247,247,1) 0%,rgba(247,247,247,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  rgba(247,247,247,1) 0%,rgba(247,247,247,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#f7f7f7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	box-shadow: 3px 3px 3px black;
+	line-height: 15px;
+	text-align: center;
+	border:2px solid maroon;
+	width:90%;
+	margin:20px auto;
+	display: none;
+	position: relative;
+}
+
+.weekContainer:nth-of-type(11){
+	margin-bottom: 25px;
+}
+
+.week h5{
+	font-size: 1.1em;
+	padding: 10px 30px;
+	line-height:25px;
+}
+
+.week h4{
+	font-size: 1.45em;
+	font-weight:bolder;
+}

@@ -1,0 +1,125 @@
+#container{
+	padding: 0 0;
+	margin: 0 0;
+}
+
+#fundraisingSchedule h5{
+	margin:20px 0;
+	text-align: center;
+	font-size:1.05em;
+}
+
+#currentWeek{
+	background-color: snow;
+	margin: 0 auto;
+	padding:3px 3px;
+	width: 175px;
+	border: 1px solid maroon;
+	text-align: center;
+	line-height: 25px;
+}
+
+#fundraisingSchedule{
+	text-align: center;
+}
+
+.fundraisingWeek{
+	width:72%;
+	border:2px solid maroon;
+	margin:30px auto;
+	text-align: center;
+	background-color: snow;
+	box-shadow: 4px 4px 4px #888888;
+}
+
+.fundraisingWeek:nth-of-type(6){
+	margin-bottom: 70px;
+}
+
+.fundraisingDate{
+	display: inline-block;
+	margin:10px 20px;
+}
+
+#notesAndGuidelines{
+	padding:0 15px;
+	margin-top:50px;
+}
+
+#notesAndGuidelines p, .fundraisingDate p{
+	line-height: 25px;
+	font-size: 1.2em;
+}
+
+#notes{
+	padding:10px 10px;
+	background-color: ghostwhite;
+	border:2px solid black;
+	border-radius: 1%;
+}
+
+#notes h4, #guidelines h4, #fundraisingLocation h4{
+	background-color: #990000;
+	border:2px solid white;
+	color:white;
+	box-shadow: 2px 2px 2px #888888;
+}
+
+#notes h4{
+	width:125px;
+	padding:5px;
+	border:2px solid maroon;
+}
+
+
+#guidelines{
+	padding:10px 10px;
+	background-color: ghostwhite;
+	border:2px solid black;
+	border-radius: 1%;
+	margin-top: 50px;
+}
+
+#guidelines > p:nth-of-type(1){
+	margin-bottom: 15px;
+	margin-top:15px;
+}
+
+#guidelines h4{
+	width:105px;
+	padding:5px;
+	border: 2px solid maroon;
+}
+
+.arrow{
+	margin-right: 10px;
+	display: inline-block;
+	border-right-color: transparent;
+	border: 5.5px solid transparent;
+	border-left-color: maroon;
+}
+
+#fundraisingLocation{
+	padding:10px 10px;
+	background-color: ghostwhite;
+	border:2px solid black;
+	border-radius: 1%;
+	margin: 50px 0;
+
+}
+
+#fundraisingLocation h4{
+	width:200px;
+	padding:5px;
+	border:2px solid maroon;
+}
+
+#fundraisingLocation img{
+	display: block;
+	margin-top: 20px;
+	width:500px;
+	height:400px;
+	border: 3px solid maroon;
+	border-radius:20px;
+	box-shadow: 4px 4px 4px #888888;
+}

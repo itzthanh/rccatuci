@@ -1,0 +1,94 @@
+#intro{
+	border:2px solid maroon;
+	margin:20px 25px;
+	padding:0 5px;
+	box-shadow: 4px 4px 4px #888888;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+#intro h4{
+	padding:10px 10px;
+	font-size: 1.2em;
+	line-height: 1.25em;
+}
+
+.familyName{
+	opacity: 0;
+	display: table;
+	position: absolute;
+	right:0;
+}
+
+.familyName h3{
+	text-align: center;
+	margin:0 0;
+}
+
+.familyName h2{
+	text-align: center;
+	font-weight: bold;
+	margin: 0 0;
+}
+
+.familyName:nth-of-type(1) > h2, .familyName:nth-of-type(1) > h3{
+	color:maroon;
+}
+
+.familyName:nth-of-type(3) > h2, .familyName:nth-of-type(3) > h3{
+	color:deepskyblue;
+}
+
+.familyName:nth-of-type(5) > h2, .familyName:nth-of-type(5) > h3{
+	color:midnightblue;
+}
+
+.familyName:nth-of-type(7) > h2, .familyName:nth-of-type(7) > h3{
+	color:red;
+}
+
+.familyImg{
+	opacity: 0;
+	width:60%;
+	display: inline-block;
+	position: relative;
+	visibility: hidden;
+	margin: 8% 0;
+}
+
+.familyImg:nth-of-type(2) > img{
+	border-top: 4px solid maroon;
+	border-bottom: 4px solid maroon;
+	border-left: 4px solid maroon;
+	border-right: 4px solid maroon;
+}
+
+.familyImg:nth-of-type(4) > img{
+	border-top: 4px solid lightskyblue;
+	border-bottom: 4px solid lightskyblue;
+	border-left: 4px solid lightskyblue;
+	border-right: 4px solid lightskyblue;
+}
+
+.familyImg:nth-of-type(6) > img{
+	border-top: 4px solid midnightblue;
+	border-bottom: 4px solid midnightblue;
+	border-left: 4px solid midnightblue;
+	border-right: 4px solid midnightblue;
+}
+
+.familyImg:nth-of-type(8) > img{
+	border-top: 4px solid maroon;
+	border-bottom: 4px solid maroon;
+	border-left: 4px solid white;
+	border-right: 4px solid white;
+}
+
+#disclaimer{
+	margin: 0 auto;
+	text-align: center;
+}

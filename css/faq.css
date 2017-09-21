@@ -1,0 +1,77 @@
+/*faq.css*/
+
+#innerContainer{
+	margin:0 10px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,cccccc+100;Gren+3D */
+background: rgb(238,238,238); /* Old browsers */
+background: -moz-linear-gradient(45deg,  rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+;
+	border:1px solid maroon;
+}
+
+.faqHeader{
+	width: 300px;
+	overflow: hidden;
+	white-space: nowrap;
+	position: relative;
+	margin: 10px 0;
+	left:-50px;
+	visibility: hidden;
+	opacity: 0.0;
+}
+
+.faqHeader h3{
+	text-align: left;
+	font-size:2.2em;
+	color:maroon;
+}
+
+.answer{
+	border: 1px solid maroon;
+	color:dimgray;
+	padding: 10px 10px;
+	background-color: snow;
+	margin-bottom: 35px;
+	height: 0;
+	display: none;
+}
+
+.question{
+	position: relative;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+
+.question, .answer{
+	margin-left: 35px;
+	margin-right: 50px;
+	font-size: 1.1em;
+}
+
+.active{
+	color:#d74646;
+}
+
+.arrow{
+	margin-right: 10px;
+	display: inline-block;
+	border-right-color: transparent;
+	border: 6.5px solid transparent;
+	border-left-color: black;
+	
+
+}
+
+.arrowToggled{
+	margin-right: 10px;
+	margin-top:5px;
+	display: inline-block;
+	border: 6.5px solid transparent;
+	border-top-color: #990000;
+	vertical-align: middle;
+}
+
+

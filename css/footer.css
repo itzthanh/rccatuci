@@ -1,0 +1,82 @@
+/*footer.css*/
+.footer
+{
+	position: relative;
+	margin-top: -65px;
+	height:45px;
+	clear:both;
+	background: rgb(197,52,69); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(197,52,69,1) 9%, rgba(178,47,62,1) 20%, rgba(131,33,44,1) 48%, rgba(105,22,32,1) 73%, rgba(86,0,16,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(197,52,69,1) 9%,rgba(178,47,62,1) 20%,rgba(131,33,44,1) 48%,rgba(105,22,32,1) 73%,rgba(86,0,16,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(197,52,69,1) 9%,rgba(178,47,62,1) 20%,rgba(131,33,44,1) 48%,rgba(105,22,32,1) 73%,rgba(86,0,16,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c53445', endColorstr='#560010',GradientType=0 ); /* IE6-9 */
+}
+
+.footer{
+	background: inherit;
+}
+
+.bottomBar
+{
+	height: inherit;
+	background: rgb(197,52,69); 
+	background: -moz-linear-gradient(top,  rgba(197,52,69,1) 9%, rgba(178,47,62,1) 20%, rgba(131,33,44,1) 48%, rgba(105,22,32,1) 73%, rgba(86,0,16,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  rgba(197,52,69,1) 9%,rgba(178,47,62,1) 20%,rgba(131,33,44,1) 48%,rgba(105,22,32,1) 73%,rgba(86,0,16,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  rgba(197,52,69,1) 9%,rgba(178,47,62,1) 20%,rgba(131,33,44,1) 48%,rgba(105,22,32,1) 73%,rgba(86,0,16,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c53445', endColorstr='#560010',GradientType=0 ); /* IE6-9 */
+}
+
+.lineBreak img
+{
+	margin-top: 5px;
+	width: 100%;
+	height:20px;
+}
+
+.bottomLogo
+{
+	padding-left: 50px;
+	float: left;
+}
+
+.bottomLogo img
+{
+	width:350px;
+	height:35px; 
+}
+
+#footerBarDiv
+{
+	margin-top: 5px;
+	margin-right: 50px;
+	float: right;
+	display: inline;
+}
+
+#footerBar
+{
+	list-style: none;
+}
+
+#footerBar li
+{
+	margin-right: 15px;
+	display: inline;
+	font-size: 1.2em;
+}
+
+#footerBar li a
+{
+	text-decoration: none;
+	color:white;
+}
+
+#footerBar li a:hover
+{
+	text-decoration: underline;
+}
+
+#footerBar li a:active
+{
+	text-decoration: bold;
+}

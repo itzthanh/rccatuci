@@ -1,0 +1,87 @@
+.smallPageTitle{
+    position: relative;
+    text-align: center;
+    background-image: url("../images/styles/text.png");
+    background-position: top;
+    height:40px;
+    background-size: 10% 100%;
+}
+
+.smallPageTitle h1{
+    font-size: 1.6em;
+    padding-top:6px;
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 1);
+    color:white;
+}
+
+.photoSection{
+	margin:1.5em auto;
+	text-align: center;
+}
+
+.photoSection img{
+	margin: 0 3em;
+	border:2px solid maroon;
+	width:23%;
+}
+
+#social img{
+	width:30%;
+}
+
+#dinodash >img:first-of-type, #workingwardrobe>img:first-of-type,
+#globalimpactsproject>img{
+	width:25%;
+}
+
+@media screen and (max-width: 1200px){
+	.photoSection img{
+		width:22%;
+	}
+	#dinodash >img:first-of-type, #workingwardrobe>img:first-of-type,
+	#globalimpactsproject>img{
+		width:24%;
+	}
+}
+
+/*instagram photos*/
+#instafeed, #load-more{
+	margin:0 auto;
+	text-align: center;
+}
+
+.intro{
+	border:2px solid maroon;
+	background-color: snow;
+	box-shadow: 2px 2px 2px #888888;
+	text-align: center;
+	margin-bottom: 3em;
+}
+
+.intro p{
+	padding-bottom: 0;
+	padding-top: 0.5em;
+	font-size:1.2em;
+}
+
+#load-more{
+	margin-top: 2em;
+}
+
+#load-more:hover{
+	cursor: pointer;
+}
+
+.test img{
+	width:100%;
+	display:inline-block;
+	border:3px solid maroon;
+	border-radius:10%;
+}
+
+.test{
+	width:15%;
+	text-align: center;
+	margin: 0.3em 0.3em;
+	display: inline-block;
+}

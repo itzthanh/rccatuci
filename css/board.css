@@ -1,0 +1,142 @@
+section{
+	position: relative;
+	width: 100%;
+}
+
+#groupPhoto{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7d7e7d+0,0e0e0e+100;Black+3D */
+	background: rgb(125,126,125); /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%); /* FF3.6-15 */
+	background: -webkit-radial-gradient(center, ellipse cover,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: radial-gradient(ellipse at center,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	margin:0 auto;
+	text-align: center;
+}
+
+#groupPhoto > img{
+	margin: 0.25em 0;
+	border:3px solid snow;
+	width:700px;
+	max-width: 700px;
+}
+
+#groupPhoto >img:hover{
+	cursor:pointer;
+}
+
+#boardIntro
+{
+	border:2px solid maroon;
+	background-color: snow;
+	box-shadow: 2px 2px 2px #888888;
+	text-align: center;
+	margin-bottom: 50px;
+	padding:10px 20px;
+}
+
+#boardIntro h4{
+	font-size:1.3em;
+}
+
+.boardPosition{
+	margin:2em auto;
+	text-align: center;
+	display: inline-block;
+}
+
+.boardMember{
+
+}
+
+.boardPosition div{
+	margin: 0 1em;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.boardMemberImage{
+	visibility: hidden;
+	opacity: 0;
+}
+
+.boardMember > .name{
+	margin-top: 1em;
+}
+
+.boardMember > p{
+	padding:0.7em;
+	border:1px solid maroon;
+	background: snow;
+	font-size: 1.1em;
+}
+
+#ivan > .name{
+	margin-top: 0.5em;
+}
+
+.name{
+	text-shadow: 3px 2px 2px grey;
+	font-family: cursive;
+	font-size: 2.5em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 26.4px;
+}
+
+.name:hover{
+	text-decoration: underline;
+}
+
+.boardPosition > .boardMember{
+	width:27%;
+}
+
+@media screen and (max-width: 1200px){
+	.boardMemberImage  img:not(#fundraisingImage){
+		max-width: 350px;
+	}
+
+	#fundraising img{
+		max-width:400px;
+	}
+
+	.boardPosition > .boardMember{
+		width:28%;
+	}
+}
+
+.boardMemberImage > img{
+	margin-top: 2em;
+}
+
+#wynonna, #ivan, #thanh{
+	width:33%;
+}
+
+
+#publicity img, #event img, #internal img{
+	margin-top: 3.5em;
+}
+
+
+#fundraising img{
+	width: 500px;
+}
+
+.boardMemberImage > img{
+	box-shadow: 4px 4px 4px #888888;
+	border: 0.3em solid maroon;
+	border-radius:90%;
+}
+
+.boardMemberImage > img:not(#fundraisingImage){
+	width: 450px;
+}
+
+#fundraisingContainer div{
+	display: inline-block;
+	width: 30%;
+}
+
